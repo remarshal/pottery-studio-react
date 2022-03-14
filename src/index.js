@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
+import Typed from 'react-typed';
 import './index.css';
 import App from './App';
 
