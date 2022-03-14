@@ -1,7 +1,6 @@
 import "./Hero.css";
 import hero from "../images/studio.png";
 
-
 function Hero() {
     return (
         <header>
