@@ -9,3 +9,9 @@ nav {
 .nav--icon {
     height: 70px;
 }
+
+#navBrand {
+    font-family: "Poiret One", cursive;
+    text-transform: uppercase;
+    font-size: xxx-large;
+    font-weight: 700; }
