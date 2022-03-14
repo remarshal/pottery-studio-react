@@ -9,3 +9,15 @@ header {
     padding: 0;
 }
 
+.hero--img {
+    border-radius: 10%;
+    padding: 20px;
+}
+
+.typed-msg {
+    font-size: 30px; 
+}
+
+#typed {
+    font-size: 50px; 
+}
