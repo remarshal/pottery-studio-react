@@ -8,8 +8,8 @@ function Hero() {
             <div className="container">
                 <div className="row">
 
-                    <div className="col-lg-6">
-                        <div className="my-5 text-center text-xl-start">
+                    <div className="col-lg-6 hero-section">
+                        <div className="my-5 text-center text-sm-start">
                             <h1 className="fw-bolder mb-2">NEXT</h1>
                             <h1 className="fw-bolder mb-2">RESTOCK</h1>
                             <div id="typed-strings">
@@ -20,7 +20,7 @@ function Hero() {
                             <p className="lead fw-normal text-black-50 mb-4">Join our mailing list and never miss shop restocks!</p>
                             <div clasNames="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
                                 <a className="btn btn-primary btn-lg px-4 me-sm-3" href="shop.html">Let's Go Shopping!</a>
-                                <a className="btn fw-bolder btn-outline-dark btn-lg px-4" href="about.html">Read Our Story</a>
+                                <a className="btn fw-bolder btn-outline-dark btn-lg px-4 my-4" href="about.html">Read Our Story</a>
                             </div>
                         </div>
                     </div>
