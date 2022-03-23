@@ -9,7 +9,13 @@ function App() {
     <div className="container">
       <Navbar />
       <Hero />
-      <Card />
+      <Card
+              img="mug-1.png"
+              title="Nantahala"
+              price={105.00}
+              details="4.25 in tall by 4 in wide"
+              rating={5}
+      />
     </div>
   );
 }
