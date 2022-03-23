@@ -16,7 +16,7 @@ function Card(props) {
                             <img className="card--star" src={Star} />
                             <img className="card--star" src={Star} />
                             <span>({props.rating})</span>
-                            <p>${props.price}.00</p>
+                            <h6 className="card--price">${props.price}.00</h6>
                             <p>{props.details}</p>
                         </div>
                     </div>
