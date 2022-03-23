@@ -4,16 +4,9 @@ import hero from "../images/studio.png";
 function Hero() {
     
     return (
-
-            
         <header>
             <div className="container">
                 <div className="row">
-
-                    {/* <div className="col-lg-6">
-                        <h1 className="hero--header my-5 mx-5">Next Restock</h1>
-                        <p className="hero--text my-5 mx-5">Join our mailing list and never miss shop restocks!</p>
-                    </div> */}
 
                     <div className="col-lg-6">
                         <div className="my-5 text-center text-xl-start">
