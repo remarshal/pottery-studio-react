@@ -6,7 +6,8 @@ export default [
         title: "Nantahala",
         price: 105.00,
         details: "4.25 in tall by 4 in wide",
-        rating: 5
+        rating: 5,
+        sale: true
     },
     {
         id: 2,
@@ -14,7 +15,8 @@ export default [
         title: "Luray",
         price: 95.00,
         details: "4.25 in tall by 4 in wide",
-        rating: 5
+        rating: 4,
+        sale: true
     },
     {
         id: 3,
@@ -22,7 +24,8 @@ export default [
         title: "Damascus",
         price: 120.00,
         details: "4.25 in tall by 4 in wide",
-        rating: 5
+        rating: 5,
+        sale: false
     },
     {
         id: 4,
@@ -30,7 +33,8 @@ export default [
         title: "Franklin",
         price: 115.00,
         details: "4.25 in tall by 4 in wide",
-        rating: 5
+        rating: 5,
+        sale: false
     },
     {
         id: 5,
@@ -38,7 +42,8 @@ export default [
         title: "Cherry Gap",
         price: 125.00,
         details: "4.25 in tall by 4 in wide",
-        rating: 5
+        rating: 3,
+        sale: true
     },
     {
         id: 6,
@@ -46,7 +51,8 @@ export default [
         title: "Quarry Gap",
         price: 680.00,
         details: "9 in tall by 9.5 in wide",
-        rating: 5
+        rating: 5,
+        sale: false
     },
     {
         id: 7,
@@ -54,7 +60,8 @@ export default [
         title: "Wind Gap",
         price: 690.00,
         details: "11.5 in tall by 8.25 in wide",
-        rating: 5
+        rating: 5,
+        sale: false
     },
     {
         id: 8,
@@ -62,6 +69,7 @@ export default [
         title: "Hutchineson Gap",
         price: 450.00,
         details: "8 in tall by 6.5 in wide",
-        rating: 5
+        rating: 4,
+        sale: true
     },
 ]

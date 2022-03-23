@@ -4,6 +4,7 @@
     flex: 0 0 auto;
     display: flex;
     flex-direction: column; 
+    position: relative;
 }
 
 .cards-list {
@@ -19,5 +20,17 @@
 }
 
 .card--price {
-    padding-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.card--sale {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: #4FCCCA;;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
 }

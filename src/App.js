@@ -16,6 +16,7 @@ function App() {
         price={item.price}
         details={item.details}
         rating={item.rating}
+        sale={item.sale}
       />
     );
   });
