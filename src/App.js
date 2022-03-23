@@ -4,7 +4,7 @@ import Card from "./components/Card";
 import Footer from "./components/Footer"
 import data from "./data";
 import "./App.css";
-
+import CallToAction from "./components/CallToAction";
 
 function App() {
   const storeItem = data.map(item => {
@@ -24,6 +24,7 @@ function App() {
       <Navbar />
       <Hero />
       <section className="cards-list">{storeItem}</section>
+      <CallToAction />
       <Footer />
     </div>
   );
