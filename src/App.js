@@ -1,21 +1,27 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Card from "./components/Card"
+import Card from "./components/Card";
+import data from "./data";
 import "./App.css";
 
 
 function App() {
+  const storeItem = data.map(item => {
+    return (
+      <Card
+        img={item.img}
+        title={item.title}
+        price={item.price}
+        details={item.details}
+        rating={item.rating}
+      />
+    );
+  });
   return (
     <div className="container">
       <Navbar />
       <Hero />
-      <Card
-              img="mug-1.png"
-              title="Nantahala"
-              price={105.00}
-              details="4.25 in tall by 4 in wide"
-              rating={5}
-      />
+      {storeItem}
     </div>
   );
 }
