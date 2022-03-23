@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Card from "./components/Card";
+import Footer from "./components/Footer"
 import data from "./data";
 import "./App.css";
 
@@ -23,6 +24,7 @@ function App() {
       <Navbar />
       <Hero />
       <section className="cards-list">{storeItem}</section>
+      <Footer />
     </div>
   );
 }
